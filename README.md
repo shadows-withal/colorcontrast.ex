@@ -1,6 +1,6 @@
 # ColorContrast.ex
 
-An Elixir library to select black or white according to a hexadecimal background color.
+An Elixir library to select black or white depending on the contrast to a hexadecimal background color.
 
 ## Installation
 
