@@ -21,7 +21,7 @@ defmodule ColorContrast.MixProject do
   defp package do
     [
       name: "color_contrast",
-      files: ~w(lib .formatter.exs mix.exs README LICENSE),
+      files: ~w(lib .formatter.exs mix.exs README.md LICENSE),
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/thcz/colorcontrast.ex"}
     ]
