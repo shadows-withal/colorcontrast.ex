@@ -1,6 +1,6 @@
-# ColorContrast
+# ColorContrast.ex
 
-**TODO: Add description**
+An Elixir library to select black or white according to a hexadecimal background color.
 
 ## Installation
 
@@ -15,7 +15,14 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/color_contrast](https://hexdocs.pm/color_contrast).
+## Usage
 
+Give it a hexadecimal string:
+
+``` elixir
+ColorContrast.color_contrast("#000000") # => "#ffffff"
+```
+
+## License
+
+MIT
