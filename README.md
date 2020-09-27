@@ -11,7 +11,7 @@ dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:color_contrast, "~> 1.0"}
+    {:color_contrast, "~> 1.1"}
   ]
 end
 ```
