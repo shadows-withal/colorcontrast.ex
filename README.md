@@ -1,11 +1,12 @@
 # ColorContrast.ex
 
-An Elixir library to select black or white depending on the contrast to a hexadecimal background color.
+An Elixir library to select black or white depending on the contrast to a
+hexadecimal background color.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `color_contrast` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `color_contrast` to your list of
+dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -15,12 +16,15 @@ def deps do
 end
 ```
 
+The docs can be found at [https://hexdocs.pm/color_contrast](https://hexdocs.pm/color_contrast).
+
 ## Usage
 
 Give it a hexadecimal string:
 
 ``` elixir
-ColorContrast.color_contrast("#000000") # => "#ffffff"
+iex> ColorContrast.calc_contrast("#000000")
+{:ok, "#FFFFFF"}
 ```
 
 ## License
