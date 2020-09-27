@@ -6,11 +6,11 @@ defmodule ColorContrast do
   @white_hex "#FFFFFF"
 
   @doc """
-  Calculate the constrast of the background color.
+  Calculates the contrast with a background color.
 
   ## Examples
 
-  Accept color value in different hex format.
+  Accept a color value in different hex formats.
 
       iex> ColorContrast.calc_contrast("#000000")
       {:ok, "#FFFFFF"}
@@ -24,7 +24,7 @@ defmodule ColorContrast do
       iex> ColorContrast.calc_contrast("ffffff")
       {:ok, "#000000"}
 
-  Show error for invalid color hex value.
+  Show an error for an invalid color hex value.
 
       iex> ColorContrast.calc_contrast("#1234567")
       {:error, :invalid_bg_color_hex_value}
